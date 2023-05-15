@@ -9,7 +9,6 @@ def fill_arr(a: int, b: int, n: int):
     list_1[0] = a
     for i in range(1, len(list_1)):
         list_1[i] = list_1[i - 1] + b
-        a = b
         i += 1
     return list_1
 
